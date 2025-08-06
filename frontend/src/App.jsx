@@ -1,5 +1,7 @@
 import TweetForm from "./components/TweetForm";
 import DraftsAndPosted from "./components/DraftsAndPosted";
+import './App.css';
+
 
 export default function App() {
   return (

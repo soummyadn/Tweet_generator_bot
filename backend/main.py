@@ -17,9 +17,9 @@ app.add_middleware(
 )
 
 # API Keys (keep secret in production)
-OPENROUTER_API_KEY = # when you use it, you make api key and paste there
-TWITTER_CLONE_API_KEY = # when you use it, you make api key and paste there
-TWITTER_CLONE_URL = # when you use it, you make api key and paste there
+OPENROUTER_API_KEY = "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"
+TWITTER_CLONE_API_KEY = "soummyadeep_476ffb66fd5f55f88b7bef95f774e53a"
+TWITTER_CLONE_URL = "https://twitterclone-server-2xz2.onrender.com/post_tweet"
 
 # === 1. Generate Tweet with DeepSeek model ===
 @app.post("/generate-tweet")
